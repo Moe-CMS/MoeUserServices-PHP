@@ -94,8 +94,24 @@ Currently you can sponsor us via [爱发电](https://afdian.net/@MoeCinnamo).
 </table>
 
 ## Build From Source
-Coming soon...
-<!-- Please refer to [Manual Build](). -->
+If you want to contribute to this project, or try new features that haven't been released, you can deploy them with code on GitHub first.
+
+**It is not recommended for users who are unfamiliar with shell operations and do not want to bother.**
+
+Please ensure that you have installed the following tools:
+
+- [Git](https://git-scm.org)
+- [Composer](https://getcomposer.org)
+- [PowerShell Core](https://github.com/PowerShell/PowerShell#get-powershell)
+
+Then execute the following command to pull the code:
+
+```bash
+git clone https://github.com/Moe-CMS/MoeUserServices-PHP.git
+cd MoeUserServices-PHP
+composer install
+cp .env.example .env
+```
 
 ## Internationalization
 
@@ -211,8 +227,24 @@ Copyright (c) 2020-present SANYIMOE Inc.
 </table>
 
 ## 通过源码开发
-敬请期待...
-<!-- Please refer to [Manual Build](). -->
+如果你想为这个项目做出贡献，或者尝试尚未发布的新功能，你可以先在GitHub上用代码部署它们。
+
+**不建议不熟悉shell操作且不想麻烦的用户使用。**
+
+请确保已安装以下工具：
+
+- [Git](https://git-scm.org)
+- [Composer](https://getcomposer.org)
+- [PowerShell Core](https://github.com/PowerShell/PowerShell#get-powershell)
+
+然后执行以下命令以拉取代码：
+
+```bash
+git clone https://github.com/Moe-CMS/MoeUserServices-PHP.git
+cd MoeUserServices-PHP
+composer install
+cp .env.example .env
+```
 
 ## 多语言
 

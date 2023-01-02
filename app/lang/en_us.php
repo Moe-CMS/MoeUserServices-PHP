@@ -1,0 +1,23 @@
+<?php
+return [
+    'already_login'   =>  'Already logged in, no need to log in again',
+    'banned_user'   =>  'The account has been blocked.',
+    'cache_clean_success'   =>  'Cache cleaning succeeded.',
+    'Illegal_request'   =>  'Illegal request!!!',
+    'Incorrect_password'   =>  'Incorrect password input',
+    'login_expired'  =>  'Login expired, please login again',
+    'login_success'  =>  'Login succeeded',
+    'logout_success'  =>  'Log out successfully',
+    'no_access'  =>  'No access',
+    'not_mod_in_demo'   =>  'Modification is not allowed in the demonstration environment.',
+    'no_user'  =>  'User does not exist',
+    'no_user_info'  =>  'User information does not exist.',
+    'please_login_first'  =>  'Please login first',
+    'passwords_not_inconsistent'  =>  'The two passwords entered are inconsistent.',
+    'request_illegal'    =>  'The current request is illegal!',
+    'Request_verification_failed'   =>  'Request verification failed, please refresh the page again!',
+    'save_success'  =>  'Save Success',
+    'save_fail'  =>  'Save Failed',
+    'Top_menu'  =>  'Top-level menu',
+    'upload_success'  =>  'Upload Success',
+];

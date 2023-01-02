@@ -1,0 +1,54 @@
+{
+    "name": "Moe-CMS/MoeUserServices-PHP",
+    "description": "An advanced version of UCenter that supports multi terminal compatibility.",
+    "type": "project",
+    "keywords": [
+        "UCenter",
+        "User",
+        "UserServices",
+        "SANYIMOE"
+    ],
+    "homepage": "https://github.com/Moe-CMS/MoeUserServices-PHP.git",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Chihiro",
+            "email": "abcd2890000456@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "topthink/framework": "^6.1.0",
+        "topthink/think-orm": "^2.0",
+        "topthink/think-filesystem": "^1.0",
+        "topthink/think-captcha": "^3.0",
+        "zhongshaofa/easy-admin": "^1.0",
+        "topthink/think-view": "^1.0",
+        "jianyan74/php-excel": "^1.0",
+        "ext-json": "*",
+        "zhongshaofa/thinkphp-log-trace": "^1.0",
+        "eaglewu/swoole-ide-helper": "dev-master",
+        "topthink/think-api": "^1.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^4.2",
+        "topthink/think-trace": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        },
+        "psr-0": {
+            "": "extend/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist"
+    },
+    "scripts": {
+        "post-autoload-dump": [
+            "@php console service:discover",
+            "@php console vendor:publish"
+        ]
+    }
+}

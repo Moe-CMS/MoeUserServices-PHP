@@ -1,0 +1,10 @@
+#!/usr/bin/env php
+<?php
+namespace think;
+
+// Command line entry file
+// Load basic file
+require __DIR__ . '/vendor/autoload.php';
+
+// App Initialization
+(new App())->console->run();

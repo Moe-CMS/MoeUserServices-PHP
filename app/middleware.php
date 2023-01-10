@@ -13,12 +13,6 @@ return [
     // Check Install
     \app\middleware\CheckInstall::class,
     
-    // System operation log
-    // \app\middleware\SystemLog::class,
-    
-    // Csrf safety check
-    \app\middleware\CsrfMiddleware::class,
-    
     // Detect whether the user is logged in
     // \app\middleware\CheckLogin::class,
     

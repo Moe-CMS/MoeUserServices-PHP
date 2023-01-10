@@ -1,11 +1,12 @@
 {
-    "name": "Moe-CMS/MoeUserServices-PHP",
+    "name": "moe-cms/moeuserservices-php",
     "description": "An advanced version of UCenter that supports multi terminal compatibility.",
     "type": "project",
     "keywords": [
         "UCenter",
         "User",
         "UserServices",
+        "SSO",
         "SANYIMOE"
     ],
     "homepage": "https://github.com/Moe-CMS/MoeUserServices-PHP.git",
@@ -22,13 +23,12 @@
         "topthink/think-orm": "^2.0",
         "topthink/think-filesystem": "^1.0",
         "topthink/think-captcha": "^3.0",
-        "zhongshaofa/easy-admin": "^1.0",
         "topthink/think-view": "^1.0",
         "jianyan74/php-excel": "^1.0",
         "ext-json": "*",
-        "zhongshaofa/thinkphp-log-trace": "^1.0",
         "eaglewu/swoole-ide-helper": "dev-master",
-        "topthink/think-api": "^1.0"
+        "topthink/think-api": "^1.0",
+        "symfony/console": "^5.4"
     },
     "require-dev": {
         "symfony/var-dumper": "^4.2",

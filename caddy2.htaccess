@@ -1,0 +1,1 @@
+try_files {path} {path}/ /index.php?s={uri}

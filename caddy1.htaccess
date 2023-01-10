@@ -1,0 +1,3 @@
+rewrite {
+to {path} {path}/ /index.php?s={uri}
+}
